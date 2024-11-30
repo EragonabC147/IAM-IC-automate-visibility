@@ -1,4 +1,6 @@
-# IAM Identity Center Visibility Script
+# IAM Identity Center Visibility
+
+![Architecture](images/architecture.png)
 
 This project provides a Python script to enhance visibility into AWS IAM Identity Center (SSO) permission sets, assignments, and their associated policies. The script can be executed locally or deployed as an AWS Lambda function for automation purposes.
 
