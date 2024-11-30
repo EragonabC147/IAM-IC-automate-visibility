@@ -1,0 +1,12 @@
+.env
+*.xlsx
+.terraform*
+# Ignorar entorno virtual
+venv/
+
+# Ignorar caché de Python
+__pycache__/
+
+# Ignorar archivos temporales de Python
+*.pyc
+*.pyo
