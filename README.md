@@ -64,7 +64,6 @@ The script generates an Excel file named `permission_sets_with_details.xlsx` in 
 
 ![Architecture](images/architecture.png)
 
-
 ### **Overview**
 
 The script can be deployed to AWS Lambda for periodic execution using Terraform. The deployment includes:
