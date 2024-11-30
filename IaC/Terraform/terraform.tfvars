@@ -1,11 +1,11 @@
-lambda_name           = "iam-ic-visibility-lambda"
+lambda_name           = "your_name_for_lambda"
 memory_size           = 1280
 timeout               = 900
 environment_variables = {
-  INSTANCE_ARN      = "arn:aws:sso:::instance/ssoins-7223e41207ba70dc"
-  IDENTITY_STORE_ID = "d-9067aa9e80"
-  S3_BUCKET         = "prba-s3-iac-iam-ic"
+  INSTANCE_ARN      = "your_instance_arn"
+  IDENTITY_STORE_ID = "your_identity_store_id"
+  S3_BUCKET         = "your_s3_bucket"
 }
 log_retention         = 7
-s3_bucket_name    = "prba-s3-iac-iam-ic"
-lambda_cron_expression = "cron(30 1 * * ? *)"
+s3_bucket_name    = "your_s3_bucket"
+lambda_cron_expression = "cron(* * * * * *)"
