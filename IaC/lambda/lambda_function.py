@@ -28,7 +28,6 @@ def lambda_handler(event, context):
         data = process_permission_sets(permission_sets, sso_utils, IDENTITY_STORE_ID)
 
         # Exportar a Excel
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         output_file = f"/tmp/permission_sets_with_details_.xlsx"  # Incluye fecha y hora en el nombre
         df = pd.DataFrame(data)
         df.to_excel(output_file, index=False)
