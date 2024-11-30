@@ -8,4 +8,4 @@ environment_variables = {
 }
 log_retention         = 7
 s3_bucket_name    = "prba-s3-iac-iam-ic"
-lambda_cron_expression = "cron(15 1 * * ? *)"
+lambda_cron_expression = "cron(30 1 * * ? *)"

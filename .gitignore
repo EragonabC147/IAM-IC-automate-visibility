@@ -1,6 +1,24 @@
+# Terraform files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+bash.exe.stackdump
+*.zip
+.terraformrc
+terraform.rc
+*.lock.hcl
+.terraform
+IaC/Terraform/terraform.tfstate
+
+# Ignorar archivo puntuales
 .env
 *.xlsx
-.terraform*
+
 # Ignorar entorno virtual
 venv/
 

@@ -6,7 +6,7 @@ variable "lambda_name" {
 variable "lambda_handler" {
   description = "Manejador del Lambda (archivo.función)"
   type        = string
-  default     = "main.lambda_handler"
+  default     = "lambda_function.lambda_handler"
 }
 
 variable "runtime" {
